@@ -5,6 +5,7 @@
 }
 
 :root {
+  /* Color Var */
   --brand-color: #EF5F4C;
   --background-color: #FFFFFF;
   --surface-color: #F5F5F5;
@@ -13,9 +14,21 @@
   --text-color-secondary: #6C6C6C;
   /* Essa ultima variavel esta com a opacidade(transparencia) */
   --shape-transparency: #ffffff8f;
+
+  /* Font Var */
+  --font-family: "Poppins", sans-serif;
+  /* lg = large */
+  --text-lg: bold 32px/125% var(--font-family);
+  /* 1.5 = 150% */
+  --text: 16px/1.5 var(--font-family);
+  /* md = medium */
+  --text-md: 14px/170% var(--font-family);
+  /* sm = small */
+  --text-sm: 12px/170% Var(--font-family);
 }
 
 body {
+  font: var(--text);
   background-color: var(--background-color);
   color: var(--text-color-secondary);
 }
