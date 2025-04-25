@@ -22,9 +22,9 @@
   /* 1.5 = 150% */
   --text: 16px/1.5 var(--font-family);
   /* md = medium */
-  --text-md: 14px/175% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
   /* sm = small */
-  --text-sm: 12px/175% Var(--font-family);
+  --text-sm: 12px/170% Var(--font-family);
 }
 
 body {
