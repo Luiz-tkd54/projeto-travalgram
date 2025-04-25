@@ -9,3 +9,16 @@ main img{
   width: 286px;
   height: 286px;
 }
+
+@media (max-width: 750px) {
+
+  main{
+    gap: 10px;
+    padding-block: 20px;
+  }
+
+  main img{
+    width: 119px;
+    height: 119px;
+  }
+}

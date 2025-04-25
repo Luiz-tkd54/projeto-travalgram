@@ -8,3 +8,11 @@ footer {
 footer span:nth-child(1){
   margin-right: auto;
 }
+
+@media (max-width:750px){
+  footer{
+    font: 11px/150% var(--font-family);
+    gap: 15px;
+    padding-block: 20px;
+  }
+}

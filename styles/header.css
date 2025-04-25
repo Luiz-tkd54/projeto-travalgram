@@ -21,6 +21,8 @@ header .container{
 #profile img {
   width: 176px;
   height: 176px;
+  border: 1px solid var(--text-color-primary);
+  border-radius: 50%;
 }
 
 #profile h1 {
@@ -43,3 +45,29 @@ header .container{
   gap: 8px;
 }
 
+@media (max-width: 750px) {
+  header .container{
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  header {
+  padding-block: 20px; 
+  }
+
+  #profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #profile {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+}
